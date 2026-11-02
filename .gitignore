@@ -1,0 +1,27 @@
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Local databases and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Temporary and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.tmp
+*.bak
+
+# Raw participant and sensitive exports
+raw-survey-data/
+private-evidence/
+unredacted-logs/
